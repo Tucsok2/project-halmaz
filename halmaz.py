@@ -37,23 +37,3 @@ reggeli.discard('sajt')
 # print(reggeli - ebed)
 # # csak az egyikben, vagy csak a másikban
 # print(reggeli ^ ebed)
-
-
-
-# üres szótár létrehozása
-raktar = {}
-print(raktar)
-# szótár létrehozása adatokkal 
-diak = {
-      'vezeteknev': 'Kiss',
-      'keresztnev': 'Péter',
-      'eletkor': 17,
-      'menza': True
-}
-
-
-wr=open('szotar.txt','w')
-wr.write('vezeteknev: Kiss\n')
-wr.write('keresztnev: Péter\n')
-wr.write('eletkor: 17\n')
-wr.write('menza: True\n')
